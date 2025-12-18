@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Présentation de l'équipe du Hackathon BTS SIO 2025">
+    <title>Notre Équipe - Hackathon 2025</title>
+
+    <style>
+        /* ====== STYLE GLOBAL ====== */
+        :root {
+            --bleu: #1e3a8a;
+            --orange: #f97316;
+            --fond: #f9fafb;
+            --blanc: #ffffff;
+            --gris: #555;
+        }
+
+        body {
+            font-family: "Poppins", Arial, sans-serif;
+            background-color: var(--fond);
+            color: var(--gris);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--bleu), var(--orange));
+            color: white;
+            text-align: center;
+            padding: 2.5rem 1rem;
+            border-bottom: 6px solid #0f172a;
+        }
+
+        header img {
+            width: 140px;
+            display: block;
+            margin: 0 auto 1rem auto;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            margin-top: 0.5rem;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* ====== SECTION ÉQUIPE ====== */
+        section {
+            max-width: 1000px;
+            margin: 2.5rem auto;
+            padding: 0 1rem;
+        }
+
+        section h2 {
+            text-align: left;
+            color: var(--bleu);
+            font-size: 1.8rem;
+            border-left: 6px solid var(--orange);
+            padding-left: 10px;
+            margin-bottom: 1.5rem;
+        }
+
+        .team {
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+        }
+
+        .member {
+            background-color: var(--blanc);
+            border-left: 6px solid var(--bleu);
+            border-radius: 10px;
+            padding: 1rem 1.5rem;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            transition: all 0.25s ease-in-out;
+        }
+
+        .member:hover {
+            transform: translateX(8px);
+            box-shadow: 0 5px 14px rgba(0,0,0,0.15);
+            border-left-color: var(--orange);
+        }
+
+        .member h3 {
+            color: var(--bleu);
+            font-size: 1.3rem;
+            margin: 0;
+        }
+
+        .role {
+            color: var(--orange);
+            font-weight: 600;
+            margin: 0.3rem 0;
+            font-size: 1rem;
+        }
+
+        .bio {
+            margin: 0.5rem 0 0;
+            line-height: 1.5;
+            font-size: 0.95rem;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #1e293b;
+            color: white;
+            padding: 1rem;
+            font-size: 0.9rem;
+            margin-top: 2rem;
+        }
+
+        /* ====== RESPONSIVE ====== */
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.8rem; }
+            .member { padding: 1rem; }
+            section h2 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- En-tête avec logo -->
+    <header>
+        <img src="logo.png" alt="Logo Hackathon 2025">
+        <h1>Notre Équipe - Hackathon 2025</h1>
+        <p>Une équipe soudée et ambitieuse prête à relever tous les défis du numérique.</p>
+    </header>
+
+    <!-- Section équipe -->
+    <section>
+        <h2>👥 Membres de l'équipe</h2>
+
+        <div class="team">
+            <div class="member">
+                <h3>DUONG Ilian</h3>
+                <p class="role">Chef de projet / Infra & DevOps</p>
+                <p class="bio">Supervise le projet, gère la planification, le déploiement et la stabilité des services sur les machines virtuelles.</p>
+            </div>
+
+            <div class="member">
+                <h3>Ouissame El Qmache</h3>
+                <p class="role">Support & Documentation</p>
+                <p class="bio">Rédige les documentations et gère les incidents techniques via l’outil GLPI.</p>
+            </div>
+
+            <div class="member">
+                <h3>Tayeb Ammi</h3>
+                <p class="role">Support & Documentation</p>
+                <p class="bio">Contribue à la rédaction des procédures et au suivi des demandes d’assistance de l’équipe.</p>
+            </div>
+
+            <div class="member">
+                <h3>Mohamed-Ali Ben Farhat</h3>
+                <p class="role">Marketing digital / Développement</p>
+                <p class="bio">Crée et gère le site web de l’équipe, améliore le référencement et valorise les réalisations du groupe.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        © 2025 Équipe Hackathon BTS SIO — Design exclusif créé par Mohamed-Ali Ben Farhat
+    </footer>
+</body>
+</html>
+
+</body>
+</html>
